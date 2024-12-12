@@ -1,0 +1,526 @@
+*{
+    padding: 0%;
+    margin:0 ;
+}
+/* laptop */
+@media (min-width:1000px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        padding: 30px 80px;
+        align-items: center;
+        background-color: rgb(254,247,242);
+    }
+    .logo h2{
+        font-size: 35px;
+        color: #1E1E1E;
+    }
+    .link{
+        text-decoration: none;
+        color: #2B1B12;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .links{
+        display: flex;
+        gap: 30px;
+    }
+    .btn{
+        height: 40px;
+        width: 100px;
+        background-color: #2B1B12;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+    /* hero */
+    .hero{
+        background-color:rgb(254,247,242) ;
+        display: flex;
+        justify-content: center;
+        /* padding-bottom: 4px; */
+        height: 550px;
+    }
+    .lefthero{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top:150px;
+    }
+    .lefthero h1{
+        font-size: 50px;
+        font-weight: bolder;
+        color: #2B1B12;
+    }
+    .lefthero p{
+        font-size: 15px;
+    }
+    .righthero{
+        margin-bottom: 0px;
+    }
+    /* sec */
+    .sec{
+        height: 160px;
+        width: 900px;
+        background-color: #DDC7BB;
+        display: flex;
+        justify-items: center;
+        border-radius: 20px;
+        gap: 20px;
+        padding-left: 30px;
+        align-items: center;
+        margin-left: 70px;
+    }
+    .input{
+        border: none;
+        height: 58px;
+        width: 200px;
+        border-radius: 10px;
+        color: #2B1B12;
+        padding-left: 20px;
+    }
+    /* help */
+    .k{
+        display: flex;
+        gap: 40px;
+    }
+    .find{
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        margin-top: 150px;
+    }
+    .rightfind{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .rightfind h3{
+        font-size: 40px;
+        color: #2B1B12;
+    }
+    .rightfind p{
+        font-size: 12px;
+        color: #2B1B12;
+        font-weight: bold;
+    }
+    /* choose */
+    .choose{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        margin-top: 150px;
+    }
+    .upchoose{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .upchoose h2{
+        font-size: 30px;
+        color: #2B1B12;
+    }
+    .upchoose p{
+        font-size: 14px;
+        margin-top: 20px;
+        text-align: center;
+        color: #2B1B12;
+    }
+    .iconfind{
+        height: 83px;
+        width: 80px;
+        background-color: white;
+        border-radius: 20px;
+        padding-top: 15px;
+        text-align: center;
+    }
+    .card{
+        background-color: #DDC7BB;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 220px;
+        border-radius: 20px;
+        padding: 20px 10px;
+        margin-top: 50px;
+    }
+    .card h5{
+        font-size: 20px;
+        color: #2B1B12 ;
+    }
+    .lowchoose{
+        display: flex;
+        gap: 20px;
+    }
+    .fa-solid{
+        font-size: 30px;
+        color: #2B1B12;
+    }
+    .fa-regular{
+        font-size: 30px; 
+        color: #2B1B12;
+        padding-left: 20px;
+    }
+    /* review */
+    .review{
+        background-color: rgb(254,247,242) ;
+        margin-top: 120px;
+        padding-top: 20px;
+    }
+    .reviewup{
+        display: flex;
+        justify-content: center;
+    }
+    .reviewup{
+        font-size: 20px;
+    }
+    .reviewcard{
+        height: 300px;
+        width: 300px;
+        background-color: #DDC7BB;
+        padding: 20px 10px;
+        border-radius: 20px;
+    }
+    .reviewcard h3{
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    .reviewcard p{
+        margin-top: 5px;
+    }
+    .reviewdown{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    /* help */
+    .help{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 120px;
+    }
+    .help h3{
+        font-size: 40px;
+    }
+    .helpicons{
+        display: flex;
+        gap: 50px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .tick{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .inputbtn{
+        display: flex;
+        gap: 50px;
+        margin-top: 20px;
+    }
+    .inputhelp{
+        height: 40px;
+        width: 400px;
+        border-radius:10px ;
+        padding-left: 20px;
+    }
+    /* footer */
+    .footer{
+        background-color: #DDC7BB;
+        display: flex;
+        gap: 70px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 120px;
+        padding-top: 70px;
+    }
+    .foot{
+        display: flex;
+        gap: 10px;
+    }
+    .fo{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .dwello p{
+        margin-top: 20px;
+    }
+    
+}
+@media (max-width:474px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        padding: 30px 5px;
+        align-items: center;
+        background-color: rgb(254,247,242);
+    }
+    .icons{
+        display: none;
+    }
+    .logo h2{
+        font-size: 20px;
+        color: #1E1E1E;
+    }
+    .link{
+        text-decoration: none;
+        color: #2B1B12;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .links{
+        display: flex;
+        gap: 10px;
+    }
+    .btn{
+        height: 30px;
+        width: 40px;
+        background-color: #2B1B12;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 8px;
+    }
+    /* hero */
+    .hero{
+        background-color:rgb(254,247,242) ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2px 20px;
+    }
+    .lefthero{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .lefthero h1{
+        font-size: 30px;
+        font-weight: bolder;
+        color: #2B1B12;
+    }
+    .lefthero p{
+        font-size: 12px;
+    }
+    .heroimg{
+        height: 300px;
+        width: 250px;
+    }
+    /* sec */
+    .sec{
+        height: 250px;
+        width: 200px;
+        background-color: #DDC7BB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        border-radius: 20px;
+        gap: 20px;
+        padding-left: 18px;
+        align-items: center;
+        padding-top: 40px;
+        margin-left: 18px;
+    }
+    .input{
+        border: none;
+        height: 40px;
+        width: 150px;
+        border-radius: 10px;
+        color: #2B1B12;
+        padding-left: 20px;
+    }
+    /* find */
+    .k{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+    .findimg{
+        height: 200px;
+        width: 250px;
+    }
+    .find{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 60px;
+        margin-top: 150px;
+    }
+    .rightfind{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .rightfind h3{
+        font-size: 28px;
+        color: #2B1B12;
+    }
+    .rightfind p{
+        font-size: 10px;
+        color: #2B1B12;
+        font-weight: bold;
+    }
+    /* choose */
+    .choose{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        margin-top: 150px;
+    }
+    .upchoose{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .upchoose h2{
+        font-size: 25px;
+        color: #2B1B12;
+    }
+    .upchoose p{
+        font-size: 10px;
+        margin-top: 20px;
+        text-align: center;
+        color: #2B1B12;
+    }
+    .iconfind{
+        height: 70px;
+        width: 70px;
+        background-color: white;
+        border-radius: 20px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .card{
+        background-color: #DDC7BB;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 220px;
+        border-radius: 20px;
+        padding: 20px 10px;
+        margin-top: 50px;
+    }
+    .card h5{
+        font-size: 15px;
+        color: #2B1B12 ;
+    }
+    .lowchoose{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .fa-solid{
+        font-size: 25px;
+        color: #2B1B12;
+    }
+    .fa-regular{
+        font-size: 20px; 
+        color: #2B1B12;
+        padding-left: 20px;
+    }
+    /* review */
+    .review{
+        background-color: rgb(254,247,242) ;
+        margin-top: 120px;
+        padding-top: 20px;
+    }
+    .reviewimg{
+        height: 80px;
+        width: 200px;
+    }
+    .reviewup{
+        display: flex;
+        justify-content: center;
+    }
+    .reviewup{
+        font-size: 20px;
+    }
+    .reviewcard{
+        height: 200px;
+        width: 200px;
+        background-color: #DDC7BB;
+        padding: 20px 10px;
+        border-radius: 20px;
+    }
+    .reviewcard h3{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .reviewcard p{
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    .reviewdown{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    /* help */
+    .help{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 120px;
+    }
+    .help h3{
+        font-size: 30px;
+    }
+    .helpicons{
+        display: flex;
+        gap: 50px;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    .tick{
+        display: flex;
+        align-items: center;
+    }
+    .inputbtn{
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .inputhelp{
+        height: 40px;
+        width: 150px;
+        border-radius:10px ;
+        padding-left: 20px;
+    }
+    /* footer */
+    .footer{
+        background-color: #DDC7BB;
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        margin-top: 120px;
+        padding-top: 70px;
+    }
+    .foot{
+        display: flex;
+        gap: 10px;
+    }
+    .fo{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .dwello p{
+        margin-top: 20px;
+    }
+    
+}
